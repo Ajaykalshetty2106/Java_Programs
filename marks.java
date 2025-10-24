@@ -6,10 +6,11 @@ public class marks {
 	int science = 75 ;
 	int english = 78 ;
 	double total = maths + science + english ;
-	double average = total / 3 ;
+	double average = total / 3.0 ;
 	System.out.println("Total marks is " + total);
 	System.out.println("Average marks is " + average);
 	}
 		
 }
+
 
